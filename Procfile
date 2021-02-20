@@ -1,1 +1,1 @@
-
+worker: xrdp-start.sh
