@@ -3,14 +3,14 @@ build:
     web: Dockerfile
     worker: worker/Dockerfile
   config:
-    API_HASH: 0d08deeb9f2c78c6f94f245e7f014579
-    API_ID: 3001492
+    API_HASH: your hash here
+    API_ID: your api id
     DUR_LIMIT: 15
-    GROUP: -1001343352533
+    GROUP: group id
     LANG: en
-    MONGO_DB_URI: mongodb+srv://ikuvamzz:ikuvamzz@vcpb.j1gui.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-    SUDO_USERS: 605464405
-    TOKEN: 1667596939:AAH4iHtH6o8LsG8yuwF30Ehjj1-zt8cn7v4
+    MONGO_DB_URI: mongodb uri
+    SUDO_USERS: sudo users
+    TOKEN: anybot token
     USERS_MUST_JOIN: false
 release:
   command:
